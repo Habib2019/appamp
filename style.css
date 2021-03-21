@@ -1,0 +1,267 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.header a img {
+  width: 40px;
+}
+.header a {
+  font-weight: 500;
+}
+.header ul li a {
+  color: black;
+  font-size: 13px;
+}
+.menu li a {
+  color: black !important;
+  font-weight: 400;
+}
+.menu li {
+  margin-right: 10px;
+}
+.menu {
+  margin-left: 12%;
+}
+.banner {
+  background: url(./mbr-10.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000059;
+  z-index: -1;
+}
+.about_section {
+  background: #f7f9ff;
+}
+.about_section h1 {
+  margin-top: 130px;
+}
+.about_section .lead {
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+.single_about_wrap {
+  height: 260px;
+  box-shadow: 0 0 12px 8px #f4f2f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.slider_seciton h2 {
+  font-size: 35px;
+}
+.about_img_left {
+  width: 44%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+.about_img_left img {
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  left: -43px;
+}
+.about_contnt_right {
+  width: 56%;
+  padding: 15px;
+}
+.about_contnt_right p {
+	font-size: 15px;
+	line-height: 1.3rem;
+}
+.about_contnt_right h4 {
+  font-size: 21px;
+}
+.about_porfolio p {
+  font-weight: 400;
+}
+.single_porfolio_item {
+  position: relative;
+}
+.single_porfolio_item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #697ae8a8;
+  opacity: 0;
+  visibility: hidden;
+}
+.single_porfolio_item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.header_btn {
+  padding: 4px 15px;
+}
+.header_btn:hover {
+  box-shadow: 0px 0 21px -5px #0d6efd;
+}
+.banner p {
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.single-counter h1 {
+  font-size: 40px;
+}
+.about_img_left .one {
+  left: -66px;
+}
+.about_img_left .three {
+  left: -5px;
+}
+.about_img_left .four {
+  left: -96px;
+}
+.about_img_left .six {
+  left: -88px;
+}
+.startUsing {
+  background: #f7f9ff;
+}
+.startUsingTop {
+  padding: 40px 0;
+  text-align: center;
+}
+.startUsingBottom {
+  padding-bottom: 50px;
+}
+.startUsing h1 {
+  font-weight: 400;
+  font-size: 45px;
+}
+.SUplan {
+  background: white;
+  padding: 40px;
+  border-radius: 5px; /*! height: 350px; */
+  box-sizing: border-box;
+  box-shadow: 0 0 12px 8px #f4f2f2;
+  padding-left: 50px;
+}
+.SUplan h2 {
+  font-size: 36px;
+}
+.SUplan p {
+  margin-bottom: 19px;
+  font-size: 16px;
+}
+.SUplan ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.SUplan ul li {
+  font-weight: 300;
+  color: #605c5c;
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+.SUplan ul li i {
+  display: inline-block;
+  color: #6278df;
+  font-size: 25px;
+  margin-right: 13px;
+}
+.getAccess {
+  text-align: center;
+  padding-top: 29px;
+}
+.getAccess a:hover {
+  box-shadow: 0px 0 21px -5px #17a2b8;
+}
+.feedback {
+  padding: 41px;
+}
+.feedback p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+.feedback h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.feedback i {
+  display: block;
+  color: #f0f0f0;
+  font-size: 80px;
+}
+.feedback span {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+.joan {
+  display: inline-block;
+}
+.joan img {
+  width: 57px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 9px;
+}
+.aboutJoan {
+  float: right;
+  text-align: left;
+}
+.aboutJoan h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.ourTeam{
+    background: #F7F9FF;
+}
+.ourTeam h2 {
+	font-size: 35px;
+	font-weight: 400;
+}
+.card img {
+	width: 95px;
+	margin-top: -63px;
+	margin-left: 3px;
+	margin-bottom: 15px;
+}
+.web_btn {
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+}
+.card-body h3 {
+	font-size: 20px;
+}
+.card-body h4 {
+	font-size: 14px;
+	font-weight: 400;
+}
+.card-body p {
+	font-size: 15px;
+	font-weight: 300;
+}
+.footer{
+  background:#F7F9FF;
+}
+
+
+@media(max-width:992px){
+  .about_section h1{
+    margin-top: 0px !important;
+  }
+}
